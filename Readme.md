@@ -12,6 +12,8 @@ Inside the MERN repo lives SBA 3
 
 Initialize git 
 Add all changes, commit, and push to the cloud
+Refernce for commit history, go to link:
+https://github.com/Eduart80/HTML_CSS_JS/tree/main/SBA%203%20Design%20and%20Development
 
 Screen max width 1240px
 
