@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,7 +10,6 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="./index.css" rel="stylesheet">
   <title>Digitalbank</title>
-
 </head>
 <body>
 <nav class="navbar navbar-expand-lg bg-white fixed-top" aria-label="navbar">
@@ -32,7 +30,7 @@
           <li class="nav-item"><a class="nav-link px-2" href="#">Careers</a></li>
         </ul>
         <div  style="flex: 1; min-width: 180px; display: flex; flex-direction: column; align-items: flex-end; gap: 1rem;">
-          <button type="button" class="btn btn-primary btn-sm px-4">Request Invite</button>
+          <button type="button" class="btn btn-primary btn-sm px-4" aria-label="Request Invite">Request Invite</button>
         </div>
       </div>
     </div>
@@ -45,12 +43,12 @@
       <h1 class="display-5 fw-bold mb-4">Next generation<br> digital banking</h1>
       <p class="lead mb-4 ">Take your financial life online. Your Digitalbank account will be a one-stop-shop for spending,
         saving, budgeting, investing, and much more.</p>
-      <button type="button" class="btn btn-primary btn-lg px-4">Request Invite</button>
+      <button type="button" class="btn btn-primary btn-lg px-4" aria-label="Request Invite">Request Invite</button>
     </div>
   </div>
 </header>
 <!-- section Why -->
- <section class="sectionWhy">
+<section class="sectionWhy">
   <div class="section d-flex flex-column">
     <div class="header_section" style="padding:0 0 21px 20px; margin-left: 1px; max-width: 990px;">
       <h2 class="display-6 fw-semibold mb-4" style="margin-top: 50px;">Why choose Digitalbank?</h2>
@@ -91,53 +89,50 @@
       <h2 class="display-6 fw-semibold mb-4" style="margin-top: 50px;">Latest Articles</h2>
     </div>
     <div class="article-info d-flex flex-wrap justify-content-center gap-4" style="width:100%;">
-    <div class="money-card p-2 bg-light rounded-1" style="min-width: 240px; max-width: 300px; flex: 1 1 230px;margin-bottom: 32px">
-          <div class="card_img m-auto-p2">
-            <img src="./images/image-currency.jpg" class="card-img-top rounded-3" alt="money">
-          </div>
-          <div class="card-body d-flex flex-column ">
-            <p class="d-flex fw-medium" >By Claire Robinson</p>
-            <h5 class="card-title d-flex fs-3 fw-semibold" >Receive money in any currency with no fees</h5>
-            <p class="card-text d-flex fw-lighter" style="text-align: left;">The world is getting smaller and we’re becoming more mobile. So why should you be 
-            forced to only receive money in a single</p>
-          </div>
-    </div>
-    <div class="treat-card p-2 bg-light rounded-1" style="min-width: 260px; max-width: 320px; flex: 1 1 260px;margin-bottom: 32px">
-          <div class="card_img m-auto-p2">
-            <img src="./images/image-restaurant.jpg" class="card-img-top rounded-3" alt="money">
-          </div>
-          <div class="card-body d-flex flex-column ">
-      
-            <p class="d-flex fw-medium" >By Wilson Hutton</p>
-            <h5 class="card-title d-flex fs-3 fw-semibold" >Treat yourself without worrying about money</h5>
-            <p class="card-text d-flex fw-lighter" style="text-align: left;">Our simple budgeting feature allows you to separate out your spending and set 
-            realistic limits each month. That means you</p>
-          </div>
-    </div>
-    <div class="take-card p-2 bg-light rounded-1" style="min-width: 260px; max-width: 320px; flex: 1 1 260px;margin-bottom: 32px">
-          <div class="card_img m-auto-p2">
-            <img src="./images/image-plane.jpg" class="card-img-top rounded-3" alt="money">
-          </div>
-          <div class="card-body d-flex flex-column ">
-      
-            <p class="d-flex fw-medium" >By Wilson Hutton</p>
-            <h5 class="card-title d-flex fs-3 fw-semibold" >Take your Digitalbank card wherever you go</h5>
-            <p class="card-text d-flex fw-lighter" style="text-align: left;">We want you to enjoy your travels. This is why we don’t charge any fees on purchases 
-            while you’re abroad. We’ll even show you</p>
-          </div>
-    </div>
-    <div class="invite-card p-2 bg-light rounded-1" style="min-width: 260px; max-width: 320px; flex: 1 260px; margin-bottom: 32px">
-          <div class="card_img m-auto-p2">
-            <img src="./images/image-confetti.jpg" class="card-img-top rounded-3" alt="money">
-          </div>
-          <div class="card-body d-flex flex-column ">
-      
-            <p class="d-flex fw-medium" >By Claire Robinson</p>
-            <h5 class="card-title d-flex fs-3 fw-semibold" >Our invite-only Beta accounts are now live!</h5>
-            <p class="card-text d-flex fw-lighter" style="text-align: left;">After a lot of hard work by the whole team, we’re excited to launch our closed beta. 
-            It’s easy to request an invite through the site</p>
-          </div>
-    </div>
+      <div class="money-card p-2 bg-light rounded-1" style="min-width: 240px; max-width: 300px; flex: 1 1 230px;margin-bottom: 32px">
+            <div class="card_img m-auto-p2">
+              <img src="./images/image-currency.jpg" class="card-img-top rounded-3" alt="money">
+            </div>
+            <div class="card-body d-flex flex-column ">
+              <p class="d-flex fw-medium" >By Claire Robinson</p>
+              <h5 class="card-title d-flex fs-3 fw-semibold" >Receive money in any currency with no fees</h5>
+              <p class="card-text d-flex fw-lighter" style="text-align: left;">The world is getting smaller and we’re becoming more mobile. So why should you be 
+              forced to only receive money in a single</p>
+            </div>
+      </div>
+      <div class="treat-card p-2 bg-light rounded-1" style="min-width: 260px; max-width: 320px; flex: 1 1 260px;margin-bottom: 32px">
+            <div class="card_img m-auto-p2">
+              <img src="./images/image-restaurant.jpg" class="card-img-top rounded-3" alt="money">
+            </div>
+            <div class="card-body d-flex flex-column ">
+              <p class="d-flex fw-medium" >By Wilson Hutton</p>
+              <h5 class="card-title d-flex fs-3 fw-semibold" >Treat yourself without worrying about money</h5>
+              <p class="card-text d-flex fw-lighter" style="text-align: left;">Our simple budgeting feature allows you to separate out your spending and set 
+              realistic limits each month. That means you</p>
+            </div>
+      </div>
+      <div class="take-card p-2 bg-light rounded-1" style="min-width: 260px; max-width: 320px; flex: 1 1 260px;margin-bottom: 32px">
+            <div class="card_img m-auto-p2">
+              <img src="./images/image-plane.jpg" class="card-img-top rounded-3" alt="money">
+            </div>
+            <div class="card-body d-flex flex-column ">
+              <p class="d-flex fw-medium" >By Wilson Hutton</p>
+              <h5 class="card-title d-flex fs-3 fw-semibold" >Take your Digitalbank card wherever you go</h5>
+              <p class="card-text d-flex fw-lighter" style="text-align: left;">We want you to enjoy your travels. This is why we don’t charge any fees on purchases 
+              while you’re abroad. We’ll even show you</p>
+            </div>
+      </div>
+      <div class="invite-card p-2 bg-light rounded-1" style="min-width: 260px; max-width: 320px; flex: 1 260px; margin-bottom: 32px">
+            <div class="card_img m-auto-p2">
+              <img src="./images/image-confetti.jpg" class="card-img-top rounded-3" alt="money">
+            </div>
+            <div class="card-body d-flex flex-column ">
+              <p class="d-flex fw-medium" >By Claire Robinson</p>
+              <h5 class="card-title d-flex fs-3 fw-semibold" >Our invite-only Beta accounts are now live!</h5>
+              <p class="card-text d-flex fw-lighter" style="text-align: left;">After a lot of hard work by the whole team, we’re excited to launch our closed beta. 
+              It’s easy to request an invite through the site</p>
+            </div>
+      </div>
   </div>
 </section>
 <!-- footer -->
@@ -166,7 +161,7 @@
       </div>
     </div>
     <div class="footer-action" >
-      <button class="btn">Request Invite</button>
+      <button class="btn" aria-label="Request Invite">Request Invite</button>
       <p style="font-size: 0.9rem; margin-right: 20px; color: #bfc2d0;">© Digitalbank. All Rights Reserved</p>
     </div>
   </div>
