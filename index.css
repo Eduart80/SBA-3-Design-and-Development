@@ -139,7 +139,19 @@ body{
     .article-info p{
         font-weight: 200;
     }
-   
+   .footer-content{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    background: #2d314d;
+    color: #fff;
+    }
+   .footer-brand{
+    justify-content: center;
+    align-items: center;
+   }
   .footer-top, .footer-links, .footer-bottom {
     width: 100%;
     display: flex;
@@ -149,11 +161,6 @@ body{
     text-align: center;
     margin-bottom: 1rem;
   }
-  .footer-social {
-    flex-direction: row;
-    justify-content: center;
-    gap: 1rem;
-    margin-bottom: 1rem;
-  }
+ 
    
 } 
