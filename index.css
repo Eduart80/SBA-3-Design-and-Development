@@ -76,8 +76,18 @@ body{
     padding-bottom: 12px;
  }
  /* footer */
+ .footer-content{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    padding: 2rem 1rem;
+ }
  .footer-action{
     align-items: flex-end;
+ }
+ .footer-action button{
+    
  }
  @media screen and (max-width:800px){
     body {
